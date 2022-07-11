@@ -1,0 +1,55 @@
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+  /* ---------slider------------ */
+  .caroucell {
+    width: 80.375%;
+  }
+
+  .caroucell h2 {
+    width: 600px;
+  }
+  .caroucell-left {
+    left: 440px;
+  }
+
+  .caroucell-container-item {
+  }
+  /* ----------elementor1----------- */
+  .elementor1-box1,
+  .elementor1-box2 {
+    max-width: 43%;
+    z-index: 3;
+  }
+
+  .elementor1-box2-widget {
+    height: 100%;
+  }
+
+  .elementor-section-container1,
+  .elementor-section-container2 {
+    max-width: 40%;
+  }
+  /* --------------elementor3---------- */
+  .elementor3-widget1-play {
+    left: 21%;
+  }
+  /* --------------elementor4---------- */
+  .elementor4-widget1,
+  .elementor4-widget2 {
+    max-width: 41%;
+  }
+  /* --------------elementor4---------- */
+  .elementor5-widget {
+    width: 70%;
+  }
+  /* --------------footer---------- */
+  .footer-widget {
+    padding-left: 9%;
+    padding-right: 5%;
+  }
+
+  .go-on-top {
+    position: fixed;
+    z-index: 10;
+    top: 650px;
+  }
+}

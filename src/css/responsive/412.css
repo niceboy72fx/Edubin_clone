@@ -1,0 +1,376 @@
+@media only screen and (max-width: 412px) {
+  /* ------------Navbar-------------- */
+  .header {
+    width: 100%;
+  }
+  .header-infor {
+    width: 35%;
+    position: relative;
+    left: -130%;
+  }
+
+  .header-infor-connect {
+  }
+
+  #navbar {
+    height: auto;
+    width: 100%;
+    justify-content: left;
+  }
+
+  .navbar-head {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+  }
+  .navbar-img {
+    width: 200px;
+    height: 80px;
+  }
+  .navigation {
+    position: relative;
+    margin-left: 10%;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    width: 100%;
+    display: none;
+  }
+
+  .navi {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .icon {
+    height: 80px;
+  }
+
+  .icon-menu {
+    display: block;
+    border: 3px solid #07294d;
+    border-radius: 15px;
+  }
+
+  /* ---------slider------------ */
+  .caroucell {
+    width: 98%;
+    height: 27%;
+  }
+
+  .slider {
+    background-position: 50%;
+  }
+
+  .slider-container {
+    left: 1%;
+    width: 100%;
+    height: 65%;
+    top: 20%;
+  }
+
+  .slider-container-name {
+    font-size: 41px;
+    line-height: 1;
+  }
+
+  .slider-container-button {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 50%;
+  }
+
+  .slider-left,
+  .slider-right {
+    top: 40%;
+  }
+
+  .slider:hover .slider-left {
+    opacity: 6;
+    transform: translateX(50%);
+    transition: all 1s;
+  }
+
+  .slider:hover .slider-right {
+    opacity: 1;
+    transform: translateX(-15px);
+    transition: all 1s;
+  }
+
+  .caroucell {
+    flex-direction: column;
+    height: 45%;
+    padding: 5px 0px 5px 0px;
+  }
+
+  .caroucell h2 {
+    width: 300px;
+    height: 20%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .caroucell-left {
+    left: 20px;
+  }
+  .caroucell-right {
+    right: 20px;
+    padding-left: 0px;
+  }
+
+  .caroucell-widget {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .caroucell-container-item {
+  }
+  /* ----------elementor1----------- */
+
+  .elementor1 {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-items: top;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    background-position: 70% 120%;
+  }
+
+  .title-brand-text {
+  }
+
+  .elementor1-box1 {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: auto;
+  }
+
+  .elementor1-box2 {
+    width: 100%;
+    padding: 0;
+  }
+  .elementor1-box1,
+  .elementor1-box2 {
+    max-width: 88%;
+    height: 50%;
+    z-index: 3;
+    margin-bottom: 10px;
+  }
+
+  .elementor-section-container1,
+  .elementor-section-container2 {
+    max-width: 100%;
+  }
+
+  .elementor1-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 0;
+  }
+
+  .elementor1-section-container1,
+  .elementor2-section-container2 {
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .elementor-section-container1 {
+    margin-bottom: 30px;
+  }
+
+  .box2-widget-brand {
+    line-height: 1;
+    margin: 10px;
+  }
+
+  .title-brand-band {
+    font-size: 30px;
+  }
+
+  .box1-title-brand {
+    height: 100px;
+  }
+  /* -----------------elementor2----------- */
+  .elementor2 {
+    height: 826.083px;
+  }
+  .elementor2-widget {
+    width: 90%;
+  }
+
+  .widget-slider-container {
+    width: 50%;
+  }
+
+  .box-control-prev,
+  .box-control-next {
+    left: 5%;
+  }
+
+  .widget-box-control p {
+    font-size: 30px;
+    line-height: 1;
+  }
+  /* --------------elementor3---------- */
+  .elementor3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 150% 150%;
+    background-color: #07294d;
+    opacity: 0.6;
+    height: 90%;
+  }
+
+  .elementor3-widget1-play {
+    position: absolute;
+    left: 150px;
+  }
+
+  .elementor3-widget1 {
+    width: 90%;
+    padding-bottom: 40px;
+  }
+
+  .elementor3-widget2 {
+    margin-top: 60px;
+    padding: 0;
+  }
+
+  .elementor3-widget2-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* --------------elementor4---------- */
+
+  .elementor4 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .elementor4-widget1,
+  .elementor4-widget2 {
+    max-width: 81%;
+    padding: 0;
+  }
+
+  .elementor4-widget1-text {
+    padding-bottom: 10%;
+  }
+
+  .elementor4-widget2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .elementor4-miniwidget {
+    margin-bottom: 50px;
+  }
+
+  /* --------------elementor4---------- */
+  .elementor5-widget {
+    width: 100%;
+  }
+
+  /* -----------------elementor5------- */
+  .elementor5-widget-title {
+    font-size: 25px;
+  }
+
+  /* ----------------elementor6---------- */
+  .elementor6 {
+    height: auto;
+  }
+
+  .elementor6-widget {
+    width: 100%;
+  }
+
+  .elementor6-widget-content {
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 307px;
+  }
+  .content-container-title {
+    font-size: 30px;
+  }
+  .widget-content-container1,
+  .widget-content-container2 {
+    width: 130%;
+  }
+
+  .widget-content-container1 {
+  }
+
+  .content-container-redirect {
+    width: 40%;
+  }
+  .elementor6-widget-column {
+    display: grid;
+    grid-template-columns: 50%;
+    padding: 0px 0px 0px 0px;
+  }
+  .widget-column {
+    position: relative;
+    width: 200%;
+    /* left: 53%; */
+    height: 120%;
+    padding-bottom: 100px;
+  }
+
+  /* -----------------elementor7---------- */
+  .elementor7 {
+    height: 2200px;
+  }
+  .elementor7-widget-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .elementor7-column {
+    width: 80.5%;
+  }
+
+  /* --------------------elementor8---------- */
+  .elementor8 {
+    overflow: hidden;
+  }
+
+  /* --------------footer---------- */
+  .footer-widget {
+    display: grid;
+    grid-columns: 50% 60%;
+  }
+
+  .widget-border {
+    width: 40%;
+  }
+
+  /* ----------Upper------------ */
+  .go-on-top {
+    position: fixed;
+    right: 30%;
+  }
+}

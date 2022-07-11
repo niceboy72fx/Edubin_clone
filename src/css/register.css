@@ -1,0 +1,85 @@
+.redirect {
+  width: 100%;
+  height: 290px;
+  margin-top: 130px;
+  padding: 25px 0 25px 0;
+  background-image: url("../img/image/e1-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.15);
+}
+
+.redirect-link {
+  max-width: 100%;
+  width: 1170px;
+}
+
+.link-name {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.link-directory {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+/* --------Form---------- */
+.form {
+  width: 100%;
+  height: 817.2px;
+  padding: 80px 0;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-border {
+  height: 100%;
+  width: 60.625%;
+  padding: 50px 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.border-input-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.border-input-item label {
+  font-weight: 700;
+}
+
+.border-input-item input {
+  border-top: 1px solid #edf0f2;
+  border-bottom: 1px solid #edf0f2;
+  padding: 10px;
+  margin-top: 10px;
+  transition: all 0.5s linear;
+}
+
+.border-input-item input:focus {
+  outline: none;
+}
+
+.border-submit {
+  padding: 10px 30px;
+  background-color: #07294d;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 5px;
+}

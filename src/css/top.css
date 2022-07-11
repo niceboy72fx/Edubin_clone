@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+.go-on-top {
+  position: absolute;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 100%;
+  background-color: #ffc600;
+  z-index: 6;
+  top: 850px;
+  right: 100px;
+  position: fixed;
+}

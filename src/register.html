@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../dist/output.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- -------------------CSS---------------------- -->
+    <link rel="stylesheet" href="./css/top.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- -----------Responsive---------------- -->
+    <link rel="stylesheet" href="./css/responsive/1280&1600.css" />
+    <!-- <link rel="stylesheet" href="./css/responsive/1200&900.css" /> -->
+
+    <script
+      src="https://kit.fontawesome.com/8a2b31a7f1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Register</title>
+  </head>
+
+  <body>
+    <!-- --------------------------------------Header-------------------------------------------------- -->
+    <div class="header">
+      <div
+        class="box-content h-12 bg-blue items-center flex place-content-around"
+        style="background-color: #07294d"
+      >
+        <div class="flex text-white">
+          <div class="flex items-center mr-3">
+            <i class="fa-regular fa-envelope mr-2 ml-2"></i>
+            <p>info@yoursite.com</p>
+          </div>
+          <div class="flex items-center">
+            <i class="fa-solid fa-phone mr-2 ml-2"></i>
+            <p>123-456-7890</p>
+          </div>
+        </div>
+
+        <!------------- -->
+
+        <div class="flex align-bottom text-white justify-center items-center">
+          <div class="flex items-center">
+            <p>Follow Us:</p>
+            <div class="flex">
+              <i class="navi fa-brands fa-facebook-f mr-2 ml-2"></i>
+              <i class="navi fa-brands fa-twitter mr-2 ml-2"></i>
+              <i class="navi fa-brands fa-youtube-square mr-2 ml-2"></i>
+              <i class="navi fa-brands fa-instagram mr-2 ml-2"></i>
+            </div>
+            <div class="flex grid-cols-4 mr-2 ml-2">
+              <a class="navwhite text-amber-400 mr-2 ml-2" href="">Login</a>
+              /
+              <a class="navwhite text-amber-400 mr-2 ml-2" href="">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------NavBar--------------------------------------- -->
+      <div
+        id="navbar"
+        class="box-border h-20 items-center flex place-content-around"
+      >
+        <div>
+          <img src="./img/icon/logo.png" alt="" width="180px" height="50px" />
+        </div>
+
+        <!-- ------------- -->
+        <div class="flex text-sm font-semibold" style="color: #072b6b">
+          <tr>
+            <td>
+              <div class="navi mr-2 ml-2">
+                HOME<i class="fa-solid fa-angle-down ml-1"></i>
+              </div>
+            </td>
+            <td>
+              <div class="navi mr-2 ml-2">
+                COURSES<i class="fa-solid fa-angle-down ml-1"></i>
+              </div>
+            </td>
+            <td>
+              <div class="navi mr-2 ml-2">
+                PAGES<i class="fa-solid fa-angle-down ml-1"></i>
+              </div>
+            </td>
+            <td>
+              <div class="navi mr-2 ml-2">
+                EVENTS<i class="fa-solid fa-angle-down ml-1"></i>
+              </div>
+            </td>
+            <td>
+              <div class="navi mr-2 ml-2">
+                BLOGS<i class="fa-solid fa-angle-down ml-1"></i>
+              </div>
+            </td>
+            <td>
+              <div class="navi mr-2 ml-2">
+                SHOP<i class="fa-solid fa-angle-down ml-1"></i>
+              </div>
+            </td>
+            <td>
+              <div class="navi mr-2 ml-2">CONTACT</div>
+            </td>
+            <td>
+              <div class="navi mr-2 ml-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </td>
+          </tr>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------Redirect---------------------------------------------- -->
+    <div class="redirect">
+      <div class="redirect-link">
+        <div class="link-name">LP Profile</div>
+        <div class="link-directory">
+          <a href="./index.html">Home</a> /
+          <a href="#">Register</a>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------Main--------------------------------------------------- -->
+    <div class="form mycontainer">
+      <div class="form-border ">
+         <form class="form-border-input">
+                <div class="grid grid-cols-2">
+
+                    <div class="border-input-item">
+                        <label for="firstName">First name</label>
+                        <input required name="firstName" id="firstName" placeholder="First Name" />
+                    </div>
+
+                    <div class="border-input-item">
+                        <label for="lastName">Last name</label>
+                        <input required name="lastName" id="lastName" placeholder="Last Name" />
+                    </div>
+
+                    <div class="border-input-item">
+                        <label for="userName">User name</label>
+                        <input required name="userName" id="userName" placeholder="User Name" />
+                    </div>
+
+                    <div class="border-input-item ">
+                        <label for="email">E-mail</label>
+                        <input required name="email" id="email" placeholder="E-mail" />
+                    </div>
+
+                    <div class="border-input-item ">
+                        <label for="passWord">Password</label>
+                        <input required type="password" name="passWord" id="passWord" placeholder="Password" />
+                    </div>
+
+                    <div class="border-input-item ">
+                        <label for="passWordConfirm">Password confirmation</label>
+                        <input required type="password" name="passWordConfirm" id="passWordConfirm" placeholder="Password confirmation" />
+                    </div>
+                </div>
+                 <div style="align-self: end;">
+                    <button type="submit" class="border-submit">
+                        Register
+                    </button>
+                </div>
+      </div>
+    </div>
+    <!-- --------------------------------Footer--------------------------------------------- -->
+    <!-- Footer  -->
+    <footer class="footer mycontainer">
+      <div class="w-full">
+        <div
+          class="footer-widget bg-blueprimary sm:px-[20%] px-[20px] py-[30px] sm:flex block text-lighttext"
+        >
+          <div class="text-lighttext">
+            <img
+              src="https://thepixelcurve.com/wp/edubin/wp-content/uploads/2019/08/white-logo.png"
+              alt="logo"
+              class="h-[50px] w-[180px] my-[40px]"
+            />
+            <p class="w-[350px] break-word">
+              Edubin perfect for online courses and other institutes. It’s a
+              complete solution with lms features and functionalities.
+            </p>
+            <div class="flex py-3">
+              <div
+                class="h-[40px] w-[40px] bg-infor text-center rounded-[50%] hover:scale-90 duration-500 mr-3"
+              >
+                <i class="fa-brands fa-facebook-f icon-hover pt-1 text-lg"></i>
+              </div>
+              <div
+                class="h-[40px] w-[40px] bg-infor text-center rounded-[50%] hover:scale-90 duration-500 mr-3"
+              >
+                <i class="fa-brands fa-twitter icon-hover pt-1 text-lg"></i>
+              </div>
+              <div
+                class="h-[40px] w-[40px] bg-infor text-center rounded-[50%] hover:scale-90 duration-500 mr-3"
+              >
+                <i class="fa-brands fa-youtube icon-hover pt-1 text-lg"></i>
+              </div>
+              <div
+                class="h-[40px] w-[40px] bg-infor text-center rounded-[50%] hover:scale-90 duration-500 mr-3"
+              >
+                <i class="fa-brands fa-instagram icon-hover pt-1 text-lg"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="sm:flex block">
+            <div class="sm:px-[40px] px-0">
+              <h2 class="text-2xl font-bold pt-[40px] pb-[30px]">
+                Feature Links
+              </h2>
+              <div class="flex feature__link">
+                <!-- Feature Link Left-->
+                <div class="feature__link--left pr-[20px]">
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      About Us
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Graduation
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Scholarship
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Contact
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Result
+                    </p>
+                  </div>
+                </div>
+                <!-- Feature Link Right-->
+                <div class="feature__link--right pr-[20px]">
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      About Us
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Graduation
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Scholarship
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Contact
+                    </p>
+                  </div>
+                  <div class="flex py-[5px]">
+                    <i
+                      class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                    ></i>
+                    <p
+                      class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                    >
+                      Result
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Support Link -->
+            <div class="sm:px-[40px] px-0">
+              <h2 class="text-2xl font-bold pt-[40px] pb-[30px]">Support</h2>
+
+              <div class="pr-[20px]">
+                <div class="flex py-[5px]">
+                  <i
+                    class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                  ></i>
+                  <p
+                    class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                  >
+                    About Us
+                  </p>
+                </div>
+                <div class="flex py-[5px]">
+                  <i
+                    class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                  ></i>
+                  <p
+                    class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                  >
+                    Graduation
+                  </p>
+                </div>
+                <div class="flex py-[5px]">
+                  <i
+                    class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                  ></i>
+                  <p
+                    class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                  >
+                    Scholarship
+                  </p>
+                </div>
+                <div class="flex py-[5px]">
+                  <i
+                    class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                  ></i>
+                  <p
+                    class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                  >
+                    Contact
+                  </p>
+                </div>
+                <div class="flex py-[5px]">
+                  <i
+                    class="fa-solid fa-chevron-right text-[12px] text-primary pt-[7px]"
+                  ></i>
+                  <p
+                    class="text-md px-[10px] hover:translate-x-2 duration-500 cursor-pointer hover:text-primary"
+                  >
+                    Result
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="sm:px-[30px] px-0">
+              <h2 class="text-2xl font-bold pt-[40px] pb-[30px]">Contact</h2>
+              <p class="py-[20px]">
+                203, Envato Labs, Behind Alis Steet, Melbourne, Australia.
+              </p>
+              <div>
+                <p><i class="fa-solid fa-phone-flip"></i>+1 23-4567-8920</p>
+                <p><i class="fa-solid fa-envelope"></i> info@yourmail.com</p>
+                <p><i class="fa-solid fa-globe"></i>www.yourdomain.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-container bg-infor h-[80px] text-lighttext">
+          <div class="flex justify-between sm:mx-[20%] pt-[30px]">
+            <div class="mx-auto sm:mx-0">
+              <p>© 2022 Pixelcurve. All rights reserved.</p>
+            </div>
+            <div class="sm:flex hidden">
+              <h3 class="hover:text-primary duration-500 px-1">Language</h3>
+              <div class="h-[12px] w-[1px] bg-lighttext mt-[8px]"></div>
+              <h3 class="hover:text-primary duration-500 px-1">WordPress</h3>
+              <div class="h-[12px] w-[1px] bg-lighttext mt-[8px]"></div>
+              <h3 class="hover:text-primary duration-500 px-1">Privacy</h3>
+              <div class="h-[12px] w-[1px] bg-lighttext mt-[8px]"></div>
+              <h3 class="hover:text-primary duration-500 px-1">FAQs</h3>
+              <div class="h-[12px] w-[1px] bg-lighttext mt-[8px]"></div>
+              <h3 class="hover:text-primary duration-500 px-1">Support</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ------------------Upper--------------------- -->
+    <a class="go-on-top" href="#"><i class="fa-solid fa-angle-up"></i></a>
+    <!-- ---------------------------------------------------- -->
+    <!-- ----------------------------------------------------------------------------- -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/script2.js"></script>
+  </body>
+</html>

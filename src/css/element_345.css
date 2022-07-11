@@ -1,0 +1,300 @@
+/* --------------Elementor3------------------ */
+.elementor3 {
+  background: url("../img/image/edu-bg.jpg");
+  background-size: cover;
+  background-position: 60%;
+  width: 100%;
+  height: 702px;
+  padding: 100px 0px 80px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementor3-widget1,
+.elementor3-widget2 {
+  width: 570px;
+  height: 100%;
+}
+
+.elementor3-widget2 {
+  padding-left: 80px;
+}
+
+.elementor3-widget2-brand {
+  position: relative;
+  padding: 0px 0px 35px 20px;
+  color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.widget-box-brand {
+  position: relative;
+}
+
+.widget-box-brand::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 110%;
+  height: 3px;
+  width: 50px;
+  background: #ffc600;
+}
+
+.elementor3-widget2-content {
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.elementor3-widget2-content img {
+  max-width: 76px;
+  max-height: 76px;
+  border: none;
+}
+
+.widget2-content-box {
+  margin-left: 13px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.box-content-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.widget2-content-box p {
+  font-size: 13.5px;
+}
+
+.elementor3-widget1-play {
+  width: 82px;
+  height: 82px;
+  background: radial-gradient(rgba(255, 188, 0, 0.94) 60%, #fac911 62%);
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  left: 400px;
+}
+
+/* --------------Elementor4------------------ */
+.elementor4 {
+  width: 100%;
+  height: 860px;
+  padding: 100px 0px 90px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementor4-widget1-brand {
+  position: relative;
+  color: #23252a;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.elementor4-widget1-brand::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 110%;
+  height: 3px;
+  width: 50px;
+  background: #ffc600;
+}
+
+.elementor4-widget1-title {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 58px;
+  padding-top: 10px;
+  padding-bottom: 23px;
+  display: inline-block;
+}
+
+.elementor4-widget1-text p {
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.elementor4-widget1-button {
+  padding: 17px 30px 17px 30px;
+  background-color: #ffc600;
+  font-weight: 500;
+  border-radius: 0.5px;
+}
+
+.elementor4-widget1-button:hover {
+  background-color: #0d2e51;
+  color: #ffffff;
+  transition: 0.8s;
+}
+
+.elementor4-widget1,
+.elementor4-widget2 {
+  max-width: 29.688%;
+  height: 100%;
+}
+
+.elementor4-widget1 {
+  padding: 0 90px 0 0;
+}
+
+.elementor4-widget2 {
+  display: grid;
+  grid-template-columns: 59% 59%;
+  padding-left: 10px;
+}
+
+.elementor4-miniwidget {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.elementor4-miniwidget img {
+  height: 89.7%;
+}
+
+.elemetor4-miniwidget-name {
+}
+
+/* --------------Elementor5------------------ */
+.elementor5 {
+  width: 100%;
+  height: 704.6px;
+  background: url(../img/image/student_background.jpg) #062545;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40%;
+}
+
+.coloroverlay {
+  width: 100%;
+  height: 100%;
+  background-color: #062545;
+  opacity: 0.7;
+  padding: 120px 0px 130px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.elementor5-widget-brand {
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 43px;
+  position: relative;
+}
+
+.elementor5-widget-brand::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  height: 3px;
+  width: 50px;
+  background: white;
+}
+
+.elementor5-widget-title {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 58px;
+  padding-top: 10px;
+  padding-bottom: 23px;
+  display: inline-block;
+}
+
+.elementor5-widget {
+  height: 100%;
+  width: 59.4%;
+}
+
+.elementor5-widget-caroucell {
+  width: 100%;
+  height: 242.6px;
+  display: flex;
+  align-items: center;
+}
+
+.widget-caroucell-box {
+  width: 570px;
+  height: 207.6px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.widget-caroucell-box img {
+  position: relative;
+  display: block;
+  bottom: 10%;
+  border-radius: 3px;
+  z-index: 2;
+  opacity: 8;
+}
+
+.widget-caroucell-box::after {
+  content: "";
+  font-size: 40px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #fac911;
+  border-radius: 50%;
+  color: #07294d;
+  position: absolute;
+  left: 13%;
+  top: -14%;
+  z-index: 3;
+}
+
+.widget-caroucell-box i {
+  position: absolute;
+  top: -8.5%;
+  left: 15%;
+  color: #062545;
+  z-index: 4;
+  font-size: 25px;
+}
+
+.caroucell-box-content {
+  width: 100%;
+  height: 80%;
+  padding-left: 140px;
+  padding-right: 32px;
+  position: absolute;
+  top: 0px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.box-content-text {
+  padding-bottom: 14px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.box-content-name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700 !important;
+}

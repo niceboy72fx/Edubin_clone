@@ -21,9 +21,11 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
-    <!-- -----------Responsive---------------- -->
-    <link rel="stylesheet" href="./css/responsive/1280&1600.css" />
-    <!-- <link rel="stylesheet" href="./css/responsive/1200&900.css" /> -->
+      <!-- -----------Responsive---------------- -->
+    <link rel="stylesheet" href="./css/responsive/1280&1600.css">
+    <link rel="stylesheet" href="./css/responsive/1180&820.css">
+    <link rel="stylesheet" href="./css/responsive/412.css">
+    <link rel="stylesheet" href="./css/responsive/register.css">
 
     <script
       src="https://kit.fontawesome.com/8a2b31a7f1.js"
@@ -35,12 +37,14 @@
 
   <body>
     <!-- --------------------------------------Header-------------------------------------------------- -->
+      <!-- --------------------------------------Header-------------------------------------------------- -->
     <div class="header">
       <div
         class="box-content h-12 bg-blue items-center flex place-content-around"
         style="background-color: #07294d"
       >
-        <div class="flex text-white">
+     <div class="header-infor ">
+          <div class="flex text-white">
           <div class="flex items-center mr-3">
             <i class="fa-regular fa-envelope mr-2 ml-2"></i>
             <p>info@yoursite.com</p>
@@ -53,7 +57,7 @@
 
         <!------------- -->
 
-        <div class="flex align-bottom text-white justify-center items-center">
+        <div class="header-infor-connect flex align-bottom text-white justify-center items-center">
           <div class="flex items-center">
             <p>Follow Us:</p>
             <div class="flex">
@@ -65,22 +69,24 @@
             <div class="flex grid-cols-4 mr-2 ml-2">
               <a class="navwhite text-amber-400 mr-2 ml-2" href="">Login</a>
               /
-              <a class="navwhite text-amber-400 mr-2 ml-2" href="">Register</a>
+              <a class="navwhite text-amber-400 mr-2 ml-2" href="./register.html">Register</a>
             </div>
           </div>
         </div>
       </div>
+     </div>
       <!-- ----------------------------------------------NavBar--------------------------------------- -->
       <div
         id="navbar"
         class="box-border h-20 items-center flex place-content-around"
       >
-        <div>
+       <div class="navbar-head ">
+                <div class="navbar-img">
           <img src="./img/icon/logo.png" alt="" width="180px" height="50px" />
         </div>
 
         <!-- ------------- -->
-        <div class="flex text-sm font-semibold" style="color: #072b6b">
+        <div class="navigation flex text-sm font-semibold" style="color: #072b6b">
           <tr>
             <td>
               <div class="navi mr-2 ml-2">
@@ -113,16 +119,21 @@
               </div>
             </td>
             <td>
-              <div class="navi mr-2 ml-2">CONTACT</div>
-            </td>
-            <td>
-              <div class="navi mr-2 ml-2">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
+              <div class="navi mr-2 ml-2">CONTACT <i class="fa-solid fa-angle-down ml-1"></i></div>
             </td>
           </tr>
+          
         </div>
-      </div>
+        <div class="icon flex items-center">
+              <div class="icon-menu">
+                 <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="icon-search mr-2 ml-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+          </div>
+           </div>
+       </div>
     </div>
     <!-- -----------------------------Redirect---------------------------------------------- -->
     <div class="redirect">
@@ -138,40 +149,46 @@
     <div class="form mycontainer">
       <div class="form-border ">
          <form class="form-border-input">
-                <div class="grid grid-cols-2">
+                <div class="grid grid-cols-1  md:grid-cols-2">
 
                     <div class="border-input-item">
                         <label for="firstName">First name</label>
-                        <input required name="firstName" id="firstName" placeholder="First Name" />
+                        <input  required name="firstName" id="firstName" placeholder="First Name" />
+                        <p class="error" id="firstName_error"></p>
                     </div>
 
                     <div class="border-input-item">
                         <label for="lastName">Last name</label>
                         <input required name="lastName" id="lastName" placeholder="Last Name" />
+                        <p class="error" id="lastName_error"></p>
                     </div>
 
                     <div class="border-input-item">
                         <label for="userName">User name</label>
                         <input required name="userName" id="userName" placeholder="User Name" />
+                        <p class="error" id="userName_error"></p>
                     </div>
 
                     <div class="border-input-item ">
                         <label for="email">E-mail</label>
                         <input required name="email" id="email" placeholder="E-mail" />
+                        <p class="error" id="email_error"></p>
                     </div>
 
                     <div class="border-input-item ">
                         <label for="passWord">Password</label>
                         <input required type="password" name="passWord" id="passWord" placeholder="Password" />
+                        <p class="error" id="passWord_error"></p>
                     </div>
 
                     <div class="border-input-item ">
                         <label for="passWordConfirm">Password confirmation</label>
                         <input required type="password" name="passWordConfirm" id="passWordConfirm" placeholder="Password confirmation" />
+                        <p class="error" id="passWordConfirm_error"></p>
                     </div>
                 </div>
                  <div style="align-self: end;">
-                    <button type="submit" class="border-submit">
+                    <button type="submit" class="border-submit ">
                         Register
                     </button>
                 </div>
@@ -439,6 +456,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./js/script2.js"></script>
+    <script src="./js/register.js"></script>
   </body>
 </html>

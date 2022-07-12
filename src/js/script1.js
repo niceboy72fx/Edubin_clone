@@ -44,7 +44,7 @@ next.addEventListener("click", function (i) {
     i = image.length;
   }
   i--;
-  return setTimeout("Slider()", 3800);
+  return Slider();
 });
 
 prev.addEventListener("click", function (i) {
@@ -52,7 +52,7 @@ prev.addEventListener("click", function (i) {
     i = image.length;
   }
   i++;
-  return setTimeout("Slider()", 3800);
+  return Slider();
 });
 
 const Slider = () => {
@@ -63,7 +63,7 @@ const Slider = () => {
   slider_content.innerHTML = `${sliders[i]}`;
   slider_background.style.transition = "all 3s";
   i++;
-  setTimeout("Slider()", 6000);
+  setTimeout("Slider()", 26000);
 };
 Slider();
 
@@ -76,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     slideToScroll: 1,
     arrows: true,
     draggable: false,
+    autoplaySpeed: 2000,
     prevArrow: `${".caroucell-left"}`,
     nextArrow: `${".caroucell-right"}`,
     responsive: [
@@ -95,16 +96,18 @@ document.addEventListener("DOMContentLoaded", () => {
 // ----------------feedback------------
 document.addEventListener("DOMContentLoaded", () => {
   $(".elementor5-widget-caroucell").slick({
+    autoplaySpeed: 2000,
+    arrows: false,
+    centerMode: true,
+    centerPadding: "0px",
+    slidesToShow: 2,
+    infinite: true,
+    autoplay: true,
     responsive: [
       {
-        breakpoint: 820,
+        breakpoint: 821,
         settings: {
-          autoplaySpeed: 2000,
-          arrows: false,
-          centerMode: true,
-          centerPadding: "10px",
           slidesToShow: 1,
-          infinite: true,
         },
       },
     ],

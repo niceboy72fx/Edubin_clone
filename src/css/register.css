@@ -82,4 +82,9 @@
   color: #fff;
   margin-top: 15px;
   border-radius: 5px;
+  margin-top: 90px;
+}
+
+.border-input-item input {
+  width: 400px;
 }

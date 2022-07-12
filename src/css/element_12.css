@@ -42,7 +42,7 @@
 
 .box1-title-brand {
   width: 100%;
-  height: 160px;
+  padding: auto;
   padding-bottom: 10px;
 }
 
@@ -69,7 +69,7 @@
 
 .title-brand-text p {
   width: 100%;
-  margin-bottom: 13px;
+  margin-bottom: 30px;
 }
 /* ----------------Box1----------------- */
 .elementor1-box1 a {
@@ -81,14 +81,12 @@
 
 .box2-widget-brand {
   width: 100%;
-  height: 75px;
   padding-bottom: 32px;
   font-size: 36px;
   font-weight: 700;
 }
 
 .edubin-single-event {
-  height: 96.3%;
   width: 100%;
   padding-bottom: 25px;
 }

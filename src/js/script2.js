@@ -15,16 +15,21 @@ const GetApi = (callback) => {
 
 const DomHtml = (get) => {
   const HTML = get.map((temp) => {
+    let Starrate = ``;
+    let StarnotRate = ``;
+    for (let i = 0; i < temp.rate; ++i) {
+      Starrate += `<p class="star"><i class="fa-regular fa-star" style="color: #ffc600"></i></p>`;
+    }
+    for (let i = 0; i < 5 - temp.rate; ++i) {
+      StarnotRate += `<p class="star"><i class="fa-regular fa-star"></i></p>`;
+    }
     return `
             <div class="widget-slider-container">
                 <img src="${temp.image}" alt="">
                 <div class="slider-container-box">
                 <div class="container-box-rate">
-                     <p class="star"><i class="fa-regular fa-star"></i></p>
-                     <p class="star"><i class="fa-regular fa-star"></i></p>
-                     <p class="star"><i class="fa-regular fa-star"></i></p>
-                     <p class="star"><i class="fa-regular fa-star"></i></p>
-                     <p class="star"><i class="fa-regular fa-star"></i></p> 
+                     ${Starrate}
+                     ${StarnotRate} 
                      <p class="title-rate">${temp.rate}.00 (${temp.rate_quantity})</p>
                  </div>
                  <div class="container-box-title">

@@ -125,7 +125,7 @@
   }
 
   .caroucell-widget {
-    width: 80%;
+    width: 65%;
     margin-left: 0;
   }
 
@@ -231,9 +231,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 150% 150%;
-    background-color: #07294d;
-    opacity: 0.6;
-    height: 90%;
   }
 
   .elementor3-widget1-play {
@@ -286,6 +283,11 @@
     margin-bottom: 50px;
   }
 
+  .video-content iframe {
+    width: 355px;
+    height: 250px;
+  }
+
   /* --------------elementor4---------- */
   .elementor5-widget {
     width: 100%;
@@ -328,14 +330,11 @@
   }
   .elementor6-widget-column {
     display: grid;
-    grid-template-columns: 50%;
+    grid-template-columns: 55% 55%;
     padding: 0px 0px 0px 0px;
   }
   .widget-column {
     position: relative;
-    width: 200%;
-    /* left: 53%; */
-    height: 120%;
     padding-bottom: 100px;
   }
 
@@ -347,10 +346,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
   }
   .elementor7-column {
     width: 80.5%;
+    padding-top: 80px;
   }
 
   /* --------------------elementor8---------- */
